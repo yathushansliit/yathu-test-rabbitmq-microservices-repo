@@ -12,6 +12,11 @@ app.post('/sendLog', async(req,res,next)=>{
     res.send();
 })
 
+app.get('/', async(req,res,next)=>{
+    
+    res.send("Hello");
+})
+
 app.listen(3000, ()=>{
     console.log("Server started.....")
 })

@@ -14,7 +14,7 @@ app.post('/sendLog', async(req,res,next)=>{
 
 app.get('/', async(req,res,next)=>{
     
-    res.send("HIiiiiiujjjjjjjiiii");
+    res.send("uuuuu");
 })
 
 app.listen(3000, ()=>{
